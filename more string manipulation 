@@ -13,3 +13,6 @@ words = text.split()
 hyphenated_text = "-".join(words)
 
 print(hyphenated_text)  # Output: HELLO-WORLD!
+
+
+#These codes show some basic string manipulation 
