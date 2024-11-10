@@ -1,0 +1,15 @@
+text = "  Hello, World!  "
+
+# Remove leading and trailing whitespace
+text = text.strip()
+
+# Convert to uppercase
+text = text.upper()
+
+# Split the string into words
+words = text.split()
+
+# Join the words with hyphens
+hyphenated_text = "-".join(words)
+
+print(hyphenated_text)  # Output: HELLO-WORLD!
